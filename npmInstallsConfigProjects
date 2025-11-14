@@ -1,0 +1,51 @@
+/*
+
+Configuración de entorno backend node.js
+
+npm init -y
+npm install express mysql2 dotenv cors
+npm install --save-dev nodemo
+
+
+
+mkdir YanapaHuaytaRicardoNode
+cd YanapaHuaytaRicardoNode
+npm init -y
+npm install express mysql2 dotenv cors
+npm install --save-dev nodemon
+
+
+
+ANGULAR
+ng new nombre-del-proyecto
+	- configurar css
+	- Seleccionar la opcion "No rendering" de angular
+
+
+Creacion del archivo service para un modelo
+	ng g s nombre-del-acrchivo-servicio
+
+
+
+	En la compilación, actualiza automáticamente los cambios dentro del código antes de desplegar
+
+
+	__________________________________________________________________________________________________
+		ESTUCTURA DE PARA IMPLEMENTAR METODOS DE LLAMADA A LA BASE DE DATOS
+	__________________________________________________________________________________________________
+
+							const NombreDelMetodoDB = async (req, res) => {
+
+									try {
+
+									} catch (error) {
+											res.status(500).json({
+													success: false,
+													mensaje: "ERROR AL OBTENER EL LIBRO",
+													error: error.message,
+											});
+									}
+							}
+
+*/
+
